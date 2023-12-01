@@ -8,3 +8,12 @@ def mainpage(request):
 
 def company(request):
     return render(request, 'pages/company_info.html')
+
+def login(request):
+    return render(request, 'pages/login.html')
+
+def story(request):
+    return render(request, 'pages/story_info.html')
+
+def search(request):
+    return render(request, 'pages/search.html')

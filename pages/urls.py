@@ -28,4 +28,7 @@ from . import views
 urlpatterns = [
     path('', views.mainpage),
     path('company/', views.company),
+    path('login/', views.login),
+    path('story/', views.story),
+    path('search/', views.search),
 ]
